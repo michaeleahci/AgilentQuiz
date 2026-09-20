@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B74F79E-2020-414F-A0E7-C01DE7737CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgilentQuiz.Domain", "src\AgilentQuiz.Domain\AgilentQuiz.Domain.csproj", "{33520CA3-E5A2-486C-B53F-B4A70E4686C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgilentQuiz.Application", "src\AgilentQuiz.Application\AgilentQuiz.Application.csproj", "{7090D1FB-13FA-4B5F-9EE5-C0378E7183F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgilentQuiz.Infrastructure", "src\AgilentQuiz.Infrastructure\AgilentQuiz.Infrastructure.csproj", "{43D7AB3E-6A51-42DA-AE15-7D314B7954B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgilentQuiz.Api", "src\AgilentQuiz.Api\AgilentQuiz.Api.csproj", "{315BF300-FE77-4D7B-8222-40C39352A28D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8623B2C8-C75A-4ADF-8AF1-DA469EB11372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgilentQuiz.Tests", "tests\AgilentQuiz.Tests\AgilentQuiz.Tests.csproj", "{E3856FDF-8002-428D-A1D9-AF7DA11B4DA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33520CA3-E5A2-486C-B53F-B4A70E4686C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33520CA3-E5A2-486C-B53F-B4A70E4686C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33520CA3-E5A2-486C-B53F-B4A70E4686C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33520CA3-E5A2-486C-B53F-B4A70E4686C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7090D1FB-13FA-4B5F-9EE5-C0378E7183F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7090D1FB-13FA-4B5F-9EE5-C0378E7183F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7090D1FB-13FA-4B5F-9EE5-C0378E7183F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7090D1FB-13FA-4B5F-9EE5-C0378E7183F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D7AB3E-6A51-42DA-AE15-7D314B7954B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D7AB3E-6A51-42DA-AE15-7D314B7954B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D7AB3E-6A51-42DA-AE15-7D314B7954B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D7AB3E-6A51-42DA-AE15-7D314B7954B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315BF300-FE77-4D7B-8222-40C39352A28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315BF300-FE77-4D7B-8222-40C39352A28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315BF300-FE77-4D7B-8222-40C39352A28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315BF300-FE77-4D7B-8222-40C39352A28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3856FDF-8002-428D-A1D9-AF7DA11B4DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3856FDF-8002-428D-A1D9-AF7DA11B4DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3856FDF-8002-428D-A1D9-AF7DA11B4DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3856FDF-8002-428D-A1D9-AF7DA11B4DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33520CA3-E5A2-486C-B53F-B4A70E4686C9} = {3B74F79E-2020-414F-A0E7-C01DE7737CC4}
+		{7090D1FB-13FA-4B5F-9EE5-C0378E7183F0} = {3B74F79E-2020-414F-A0E7-C01DE7737CC4}
+		{43D7AB3E-6A51-42DA-AE15-7D314B7954B3} = {3B74F79E-2020-414F-A0E7-C01DE7737CC4}
+		{315BF300-FE77-4D7B-8222-40C39352A28D} = {3B74F79E-2020-414F-A0E7-C01DE7737CC4}
+		{E3856FDF-8002-428D-A1D9-AF7DA11B4DA6} = {8623B2C8-C75A-4ADF-8AF1-DA469EB11372}
+	EndGlobalSection
+EndGlobal
